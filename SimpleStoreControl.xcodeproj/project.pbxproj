@@ -13,6 +13,14 @@
 		0019B2BB1E58F0A400A3A93E /* SimpleStoreControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0019B2B91E58F0A400A3A93E /* SimpleStoreControl.xcdatamodeld */; };
 		0019B2BD1E58F0A400A3A93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2BC1E58F0A400A3A93E /* Assets.xcassets */; };
 		0019B2C01E58F0A400A3A93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2BE1E58F0A400A3A93E /* LaunchScreen.storyboard */; };
+		0019B2C81E58F1DD00A3A93E /* AddProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019B2C71E58F1DD00A3A93E /* AddProductController.swift */; };
+		0019B2CA1E58F42500A3A93E /* book-open-flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2C91E58F42500A3A93E /* book-open-flat.png */; };
+		0019B2CE1E59797200A3A93E /* ViewProductsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019B2CD1E59797200A3A93E /* ViewProductsController.swift */; };
+		0019B2D01E5A374C00A3A93E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019B2CF1E5A374C00A3A93E /* LoginViewController.swift */; };
+		0019B2D21E5A608800A3A93E /* UpdateDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019B2D11E5A608800A3A93E /* UpdateDeleteViewController.swift */; };
+		0019B2D41E5A91BB00A3A93E /* add_product.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2D31E5A91BB00A3A93E /* add_product.png */; };
+		0019B2D61E5A926200A3A93E /* data_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2D51E5A926200A3A93E /* data_man.png */; };
+		0019B2D81E5A92D500A3A93E /* search_prod.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2D71E5A92D500A3A93E /* search_prod.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		0019B2BC1E58F0A400A3A93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0019B2BF1E58F0A400A3A93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0019B2C11E58F0A400A3A93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0019B2C71E58F1DD00A3A93E /* AddProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductController.swift; sourceTree = "<group>"; };
+		0019B2C91E58F42500A3A93E /* book-open-flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-open-flat.png"; sourceTree = "<group>"; };
+		0019B2CD1E59797200A3A93E /* ViewProductsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProductsController.swift; sourceTree = "<group>"; };
+		0019B2CF1E5A374C00A3A93E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0019B2D11E5A608800A3A93E /* UpdateDeleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateDeleteViewController.swift; sourceTree = "<group>"; };
+		0019B2D31E5A91BB00A3A93E /* add_product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_product.png; sourceTree = "<group>"; };
+		0019B2D51E5A926200A3A93E /* data_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data_man.png; sourceTree = "<group>"; };
+		0019B2D71E5A92D500A3A93E /* search_prod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_prod.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +72,15 @@
 		0019B2B11E58F0A400A3A93E /* SimpleStoreControl */ = {
 			isa = PBXGroup;
 			children = (
+				0019B2C91E58F42500A3A93E /* book-open-flat.png */,
+				0019B2D51E5A926200A3A93E /* data_man.png */,
+				0019B2D71E5A92D500A3A93E /* search_prod.png */,
+				0019B2D31E5A91BB00A3A93E /* add_product.png */,
 				0019B2B21E58F0A400A3A93E /* AppDelegate.swift */,
+				0019B2C71E58F1DD00A3A93E /* AddProductController.swift */,
+				0019B2CD1E59797200A3A93E /* ViewProductsController.swift */,
+				0019B2CF1E5A374C00A3A93E /* LoginViewController.swift */,
+				0019B2D11E5A608800A3A93E /* UpdateDeleteViewController.swift */,
 				0019B2B41E58F0A400A3A93E /* ViewController.swift */,
 				0019B2B61E58F0A400A3A93E /* Main.storyboard */,
 				0019B2BC1E58F0A400A3A93E /* Assets.xcassets */,
@@ -126,9 +150,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0019B2D61E5A926200A3A93E /* data_man.png in Resources */,
 				0019B2C01E58F0A400A3A93E /* LaunchScreen.storyboard in Resources */,
+				0019B2D41E5A91BB00A3A93E /* add_product.png in Resources */,
 				0019B2BD1E58F0A400A3A93E /* Assets.xcassets in Resources */,
 				0019B2B81E58F0A400A3A93E /* Main.storyboard in Resources */,
+				0019B2CA1E58F42500A3A93E /* book-open-flat.png in Resources */,
+				0019B2D81E5A92D500A3A93E /* search_prod.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0019B2D21E5A608800A3A93E /* UpdateDeleteViewController.swift in Sources */,
+				0019B2D01E5A374C00A3A93E /* LoginViewController.swift in Sources */,
 				0019B2BB1E58F0A400A3A93E /* SimpleStoreControl.xcdatamodeld in Sources */,
+				0019B2CE1E59797200A3A93E /* ViewProductsController.swift in Sources */,
 				0019B2B51E58F0A400A3A93E /* ViewController.swift in Sources */,
 				0019B2B31E58F0A400A3A93E /* AppDelegate.swift in Sources */,
+				0019B2C81E58F1DD00A3A93E /* AddProductController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
