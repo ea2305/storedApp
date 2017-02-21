@@ -46,6 +46,41 @@ class UpdateDeleteViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func Agregar_carro(_ sender: Any) {
+        print("Works")
+        let alert = UIAlertController(title: "Add Product to ShopList", message: "Information saved", preferredStyle: .alert)
+        
+        
+        //2. Add the text field. You can configure it however you need.
+        alert.addTextField { (textField) in
+            textField.text = "Quantity"
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        
+        
+        alert.addAction(UIAlertAction(title: "Quantity", style: .default, handler: { [weak alert] (_) in
+            let textField = alert?.textFields![0] // Force unwrapping because we know it exists.
+            // store your data
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            
+            let list = ListShop(context: context)
+            
+            list.id = Int16(self.passValue)
+            list.quantity = Int16( (textField?.text)! )!
+            
+            //Save date information
+            (UIApplication.shared.delegate as! AppDelegate).saveContext()
+
+        }))
+
+        alert.addAction(cancelAction)
+    
+        self.present(alert, animated: true, completion: nil)
+
+        
+    }
+    
     @IBAction func updateProduct(_ sender: Any) {
         
         

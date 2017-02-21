@@ -21,6 +21,7 @@
 		0019B2D41E5A91BB00A3A93E /* add_product.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2D31E5A91BB00A3A93E /* add_product.png */; };
 		0019B2D61E5A926200A3A93E /* data_man.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2D51E5A926200A3A93E /* data_man.png */; };
 		0019B2D81E5A92D500A3A93E /* search_prod.png in Resources */ = {isa = PBXBuildFile; fileRef = 0019B2D71E5A92D500A3A93E /* search_prod.png */; };
+		0019B2DA1E5B2F8A00A3A93E /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019B2D91E5B2F8A00A3A93E /* ShopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0019B2D31E5A91BB00A3A93E /* add_product.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_product.png; sourceTree = "<group>"; };
 		0019B2D51E5A926200A3A93E /* data_man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = data_man.png; sourceTree = "<group>"; };
 		0019B2D71E5A92D500A3A93E /* search_prod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_prod.png; sourceTree = "<group>"; };
+		0019B2D91E5B2F8A00A3A93E /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				0019B2CD1E59797200A3A93E /* ViewProductsController.swift */,
 				0019B2CF1E5A374C00A3A93E /* LoginViewController.swift */,
 				0019B2D11E5A608800A3A93E /* UpdateDeleteViewController.swift */,
+				0019B2D91E5B2F8A00A3A93E /* ShopViewController.swift */,
 				0019B2B41E58F0A400A3A93E /* ViewController.swift */,
 				0019B2B61E58F0A400A3A93E /* Main.storyboard */,
 				0019B2BC1E58F0A400A3A93E /* Assets.xcassets */,
@@ -171,6 +174,7 @@
 				0019B2D01E5A374C00A3A93E /* LoginViewController.swift in Sources */,
 				0019B2BB1E58F0A400A3A93E /* SimpleStoreControl.xcdatamodeld in Sources */,
 				0019B2CE1E59797200A3A93E /* ViewProductsController.swift in Sources */,
+				0019B2DA1E5B2F8A00A3A93E /* ShopViewController.swift in Sources */,
 				0019B2B51E58F0A400A3A93E /* ViewController.swift in Sources */,
 				0019B2B31E58F0A400A3A93E /* AppDelegate.swift in Sources */,
 				0019B2C81E58F1DD00A3A93E /* AddProductController.swift in Sources */,
@@ -333,6 +337,7 @@
 				0019B2C61E58F0A400A3A93E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
