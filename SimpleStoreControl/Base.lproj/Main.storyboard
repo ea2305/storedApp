@@ -400,22 +400,23 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMN-TK-ZTD">
-                                <rect key="frame" x="160" y="442" width="55" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Agregar">
-                                    <color key="titleColor" red="0.35270552360000001" green="0.67266434590000002" blue="0.46578681179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="Agregar_carro:" destination="dA6-J9-b3E" eventType="touchUpInside" id="W8w-ky-wqM"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKg-pF-i0Z">
-                                <rect key="frame" x="250" y="580" width="109" height="30"/>
+                                <rect key="frame" x="16" y="542" width="109" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Update Product"/>
                                 <connections>
                                     <action selector="updateProduct:" destination="dA6-J9-b3E" eventType="touchUpInside" id="Fzd-kg-fWE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CMN-TK-ZTD">
+                                <rect key="frame" x="226" y="554" width="124" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Add to Car">
+                                    <color key="titleColor" red="0.35270552360000001" green="0.67266434590000002" blue="0.46578681179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Agregar_carro:" destination="dA6-J9-b3E" eventType="touchUpInside" id="W8w-ky-wqM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -431,7 +432,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oj5-Fe-vuf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4220" y="124"/>
+            <point key="canvasLocation" x="4220" y="123.68815592203899"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Cht-vb-0m3">

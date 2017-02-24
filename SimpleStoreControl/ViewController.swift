@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var products : [Product] = []
     
     @IBOutlet weak var number_elements: UITextField!
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         getData()
     }
-
+    
     func getData(){
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
@@ -33,9 +33,13 @@ class ViewController: UIViewController {
             //Agregamos el numero de elementos
             number_elements.text = "Current products: " + String( products.count )
             
-            last_element.text = products.last!.name
             
-            info_last_element.text = products.last!.infomation
+            if( products == [] ){
+                info_last_element.text = "Empty"
+            }else{
+                last_element.text = products.last!.name
+                info_last_element.text = products.last!.infomation
+            }
         }catch{
             print("Error to fetch")
         }
@@ -45,7 +49,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
 

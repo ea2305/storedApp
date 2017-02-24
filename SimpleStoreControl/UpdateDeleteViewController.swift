@@ -53,13 +53,13 @@ class UpdateDeleteViewController: UIViewController {
         
         //2. Add the text field. You can configure it however you need.
         alert.addTextField { (textField) in
-            textField.text = "Quantity"
+            textField.text = "1"
         }
         
         let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
         
-        alert.addAction(UIAlertAction(title: "Quantity", style: .default, handler: { [weak alert] (_) in
+        alert.addAction(UIAlertAction(title: "Add to car", style: .default, handler: { [weak alert] (_) in
             let textField = alert?.textFields![0] // Force unwrapping because we know it exists.
             // store your data
             let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
